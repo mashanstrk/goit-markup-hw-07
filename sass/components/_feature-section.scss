@@ -1,0 +1,43 @@
+.feature {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__block {
+      width: 270px;
+      height: 120px;
+      background-color: var(--buttun-color);
+      border-radius: 4px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    &__title {
+      margin-bottom: 10px;
+    
+      color: var(--content-textcolor);
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+    }
+    
+    &__list {
+      display: flex;
+      gap: 30px;
+    }
+    
+    &__item {
+      flex-basis: calc((100% - 90px) / 4);
+    }
+    
+    &__text {
+      margin-bottom: 0%;
+    
+      font-size: 14px;
+      line-height: 1.71;
+    }
+  }
+  
+  
