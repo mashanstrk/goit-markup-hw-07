@@ -615,7 +615,7 @@ textarea:focus {
 }
 
 .social__links__item:hover,
-.ssocial__links__item:focus {
+.social__links__item:focus {
   background-color: var(--effect-textcolor);
 }
 
